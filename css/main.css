@@ -1,0 +1,21 @@
+* {
+  pading: 0px;
+  margin: 0px;
+  border: 0px; }
+
+#top-navigation {
+  display: block;
+  text-align: center;
+  margin-top: 50px; }
+  #top-navigation ul {
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    margin: auto; }
+    #top-navigation ul li {
+      list-style: none; }
+
+.button:hover {
+  background: #dc3; }
+.button.selected {
+  background: #aaa; }

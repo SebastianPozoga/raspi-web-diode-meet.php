@@ -2,11 +2,7 @@
 
 define('APP_MODE', 'development');
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 require 'raspi/Diode.php';
-
 require 'Slim/Slim.php';
 \Slim\Slim::registerAutoloader();
 
